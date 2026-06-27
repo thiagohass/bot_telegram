@@ -23,18 +23,14 @@ def salvar_indice(idx):
     with open("indice.txt", "w") as f:
         f.write(str(idx))
 
-# Lista de mensagens
+# Lista de mensagens corrigida (sem aspas triplas para evitar SyntaxError)
 mensagens = [
     {
-        "texto": "🍛 NÃO ESQUECE DE GRAVAR A LOUÇA DO ALMOÇO! 🧼
-Garanta aqueles minutos valiosos para suas horas diárias. ",
+        "texto": "🍛 NÃO ESQUECE DE GRAVAR A LOUÇA DO ALMOÇO! 🧼\n\nGaranta aqueles minutos valiosos para suas horas diárias.",
         "foto": "imagens/foto1.png"
     },
     {
-        "texto": "_*👯‍♀️ CHAMA AS AMIGAS! 👯‍♀️*_
-`Coisa boa precisa ser dividida com quem você gosta!` 
-
-Traga suas amigas para a campanha de Tarefas Domésticas e *ganhem juntas*!",
+        "texto": "👯‍♀️ CHAMA AS AMIGAS! 👯‍♀️\nCoisa boa precisa ser dividida com quem você gosta!\n\nTraga suas amigas para a campanha de Tarefas Domésticas e ganhem juntas!",
         "foto": "imagens/foto2.png"
     }
 ]
