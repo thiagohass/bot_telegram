@@ -38,7 +38,7 @@ def main():
 
     application.job_queue.run_repeating(
         enviar_mensagem,
-        interval=1800,  # 30 minutos
+        interval=60,  # 30 minutos
         first=10        # primeira mensagem após 10 segundos
     )
 
