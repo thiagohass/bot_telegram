@@ -16,18 +16,32 @@ def run_flask():
 TOKEN = os.getenv("TOKEN")
 CHAT_ID = os.getenv("CHAT_ID")
 
+mensagens = [
+    "Mensagem 1",
+    "Mensagem 2",
+    "Mensagem 3",
+    "Mensagem 4",
+    "Mensagem 5"
+]
+
+indice = 0
+
 async def enviar_mensagem(context):
+    global indice
+
     await context.bot.send_message(
         chat_id=CHAT_ID,
-        text="Oi! Esta é a sua mensagem automática de 30 minutos."
+        text=mensagens[indice]
     )
+
+    indice = (indice + 1) % len(mensagens)
 
 def main():
     if not TOKEN:
-        raise ValueError("TOKEN não encontrada nas variáveis de ambiente.")
+        raise ValueError("TOKEN não encontrada.")
 
     if not CHAT_ID:
-        raise ValueError("CHAT_ID não encontrado nas variáveis de ambiente.")
+        raise ValueError("CHAT_ID não encontrado.")
 
     threading.Thread(
         target=run_flask,
@@ -38,8 +52,8 @@ def main():
 
     application.job_queue.run_repeating(
         enviar_mensagem,
-        interval=60,  # 30 minutos
-        first=10        # primeira mensagem após 10 segundos
+        interval=60,  # teste: 1 minuto
+        first=10
     )
 
     print("Bot rodando...")
