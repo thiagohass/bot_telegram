@@ -20,14 +20,16 @@ CHAT_ID = os.getenv("CHAT_ID")
 mensagens = [
     {"texto": "_*🍛 NÃO ESQUECE DE GRAVAR A LOUÇA DO ALMOÇO! 🧼*_
 
-Garanta aqueles minutos valiosos para suas horas diárias.", "foto": "https://drive.google.com/file/d/1mwuUsvMMXb3LUC-VWyOUfKvcLv0ZpTXy/view"},
+Garanta aqueles minutos valiosos para suas horas diárias.", "foto": "https://drive.google.com/file/d/1mwuUsvMMXb3LUC-VWyOUfKvcLv0ZpTXy"},
     {"texto": "_*👯‍♀️ CHAMA AS AMIGAS! 👯‍♀️*_
 `Coisa boa precisa ser dividida com quem você gosta!` 
 
-Traga suas amigas para a campanha de Tarefas Domésticas e *ganhem juntas*! ", "foto": "https://drive.google.com/file/d/1im_AEQ6WzxPNe4OtwG2mXRebNXvJ_MDy/view"},
-    {"texto": "_*👫 TRAGA SEUS AMIGOS E GANHE PELAS HORAS QUE ELES GRAVAREM 👫*_
-`Compartilhe seu link e ganhe pelas horas que seus indicados gravarem. `", "foto": "_*👫 TRAGA SEUS AMIGOS E GANHE PELAS HORAS QUE ELES GRAVAREM 👫*_
-`Compartilhe seu link e ganhe pelas horas que seus indicados gravarem. `"},
+Traga suas amigas para a campanha de Tarefas Domésticas e *ganhem juntas*! ", "foto": "https://drive.google.com/file/d/1im_AEQ6WzxPNe4OtwG2mXRebNXvJ_MDy"},
+    {"texto": "_*👯‍♀️ CHAMA AS AMIGAS! 👯‍♀️*_
+`Coisa boa precisa ser dividida com quem você gosta!` 
+
+Traga suas amigas para a campanha de Tarefas Domésticas e *ganhem juntas*! ", "foto": "https://drive.google.com/file/d/1im_AEQ6WzxPNe4OtwG2mXRebNXvJ_MDy"},
+    {"texto": "Mensagem 4", "foto": "https://exemplo.com/foto4.jpg"},
     {"texto": "Mensagem 4", "foto": "https://exemplo.com/foto4.jpg"},
     {"texto": "Mensagem 5", "foto": "https://exemplo.com/foto5.jpg"},
 ]
