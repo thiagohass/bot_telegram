@@ -18,16 +18,27 @@ CHAT_ID = os.getenv("CHAT_ID")
 
 # lista de mensagens com texto + foto
 mensagens = [
-    {"texto": "_*🍛 NÃO ESQUECE DE GRAVAR A LOUÇA DO ALMOÇO! 🧼*_
+    {
+        "texto": """🍛 NÃO ESQUECE DE GRAVAR A LOUÇA DO ALMOÇO! 🧼
 
-Garanta aqueles minutos valiosos para suas horas diárias.", "foto": "imagens/foto1.png"},
-    {"texto": "_*👯‍♀️ CHAMA AS AMIGAS! 👯‍♀️*_
-`Coisa boa precisa ser dividida com quem você gosta!` 
+Garanta aqueles minutos valiosos para suas horas diárias.""",
+        "foto": "imagens/foto1.png"
+    },
+    {
+        "texto": """👯‍♀️ CHAMA AS AMIGAS! 👯‍♀️
+Coisa boa precisa ser dividida com quem você gosta! 
 
-Traga suas amigas para a campanha de Tarefas Domésticas e *ganhem juntas*!", "foto": "imagens/foto2.png"},
-    {"texto": "Mensagem 4", "foto": "https://exemplo.com/foto4.jpg"},
-    {"texto": "Mensagem 4", "foto": "https://exemplo.com/foto4.jpg"},
-    {"texto": "Mensagem 5", "foto": "https://exemplo.com/foto5.jpg"},
+Traga suas amigas para a campanha de Tarefas Domésticas e ganhem juntas!""",
+        "foto": "imagens/foto2.png"
+    },
+    {
+        "texto": "Mensagem 4",
+        "foto": "https://exemplo.com/foto4.jpg"
+    },
+    {
+        "texto": "Mensagem 5",
+        "foto": "https://exemplo.com/foto5.jpg"
+    }
 ]
 
 indice = 0
