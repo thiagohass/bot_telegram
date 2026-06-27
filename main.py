@@ -20,11 +20,11 @@ CHAT_ID = os.getenv("CHAT_ID")
 mensagens = [
     {"texto": "_*🍛 NÃO ESQUECE DE GRAVAR A LOUÇA DO ALMOÇO! 🧼*_
 
-Garanta aqueles minutos valiosos para suas horas diárias.", "foto": "https://drive.google.com/uc?export=view&id=1mwuUsvMMXb3LUC-VWyOUfKvcLv0ZpTXy"},
+Garanta aqueles minutos valiosos para suas horas diárias.", "foto": "imagens/foto1.png"},
     {"texto": "_*👯‍♀️ CHAMA AS AMIGAS! 👯‍♀️*_
 `Coisa boa precisa ser dividida com quem você gosta!` 
 
-Traga suas amigas para a campanha de Tarefas Domésticas e *ganhem juntas*! ", "foto": "https://drive.google.com/uc?export=view&id=1im_AEQ6WzxPNe4OtwG2mXRebNXvJ_MDy"},
+Traga suas amigas para a campanha de Tarefas Domésticas e *ganhem juntas*!", "foto": "imagens/foto2.png"},
     {"texto": "Mensagem 4", "foto": "https://exemplo.com/foto4.jpg"},
     {"texto": "Mensagem 4", "foto": "https://exemplo.com/foto4.jpg"},
     {"texto": "Mensagem 5", "foto": "https://exemplo.com/foto5.jpg"},
